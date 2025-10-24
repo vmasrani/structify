@@ -83,7 +83,7 @@ uv run sweep_test_data.py
 ### Using OpenAI
 
 ```python
-from gpt_preprocess import gpt_preprocess
+from structify import gpt_preprocess
 
 result = gpt_preprocess(
     text="Your unstructured text here",
@@ -96,7 +96,7 @@ result = gpt_preprocess(
 ### Using Ollama
 
 ```python
-from gpt_preprocess import gpt_preprocess
+from structify import gpt_preprocess
 
 result = gpt_preprocess(
     text="Your unstructured text here",
@@ -189,4 +189,3 @@ ollama pull llama3.2
 For OpenAI, check model name spelling:
 - Use `gpt-4o-mini` not `gpt-4o-mini`
 - Use `gpt-4o` not `gpt4o`
-

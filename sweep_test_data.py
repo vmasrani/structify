@@ -25,7 +25,7 @@ from mlh.hypers import Hypers
 from rich import print
 from rich.console import Console
 from rich.progress import Progress, SpinnerColumn, TextColumn
-from gpt_preprocess import gpt_preprocess
+from structify import gpt_preprocess
 
 console = Console()
 
@@ -97,4 +97,3 @@ def main(args: Args):
 
 if __name__ == "__main__":
     main(Args())
-

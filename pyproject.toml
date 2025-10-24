@@ -3,7 +3,7 @@ name = "structify"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.10"
 dependencies = [
     "dotenv>=0.9.9",
     "instructor>=1.11.3",
@@ -13,3 +13,16 @@ dependencies = [
     "python-dotenv>=1.1.1",
     "rich>=14.2.0",
 ]
+
+[build-system]
+requires = ["hatchling>=1.25.0"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/structify"]
+
+[tool.hatch.build.targets.sdist]
+include = ["src/structify", "README.md", "BACKEND_USAGE.md", "QUICKSTART.md"]
+
+[tool.uv.sources]
+structify = { path = "src" }

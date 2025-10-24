@@ -15,8 +15,8 @@ from rich import print
 
 try:
     from .models import UniversalRecord
-except ImportError:
-    from models import UniversalRecord
+except ImportError:  # pragma: no cover - fallback when package not installed
+    from structify.models import UniversalRecord  # type: ignore
 
 
 try:

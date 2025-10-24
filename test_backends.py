@@ -14,10 +14,7 @@ from __future__ import annotations
 from rich import print
 from rich.panel import Panel
 
-try:
-    from gpt_preprocess import gpt_preprocess
-except ImportError:
-    from .gpt_preprocess import gpt_preprocess
+from structify import gpt_preprocess
 
 
 def main():
@@ -75,4 +72,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
