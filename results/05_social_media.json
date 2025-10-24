@@ -1,0 +1,62 @@
+{
+  "summary": "TechStartup announces the launch of their AI-powered analytics platform, developed over two years, with beta access available via a provided link.",
+  "questions": [
+    "What is TechStartup's new product?",
+    "How long did the development take?",
+    "Where can I get beta access?",
+    "What features does the AI-powered analytics platform offer?",
+    "What are the key hashtags associated with this product launch?"
+  ],
+  "concepts": [
+    "AI technology",
+    "data science",
+    "startup ventures",
+    "product launch",
+    "business analytics"
+  ],
+  "key_phrases": [
+    "AI-powered analytics platform",
+    "data-driven decisions",
+    "beta access",
+    "product launch",
+    "startup"
+  ],
+  "title": "TechStartup AI Analytics Platform Launch",
+  "text": "\ud83d\ude80 Exciting news! We're launching our AI-powered analytics platform next month! After 2 years of development, we're finally ready to help businesses make data-driven decisions 10x faster. Beta access: https://beta.techstartup.io #AI #DataScience #Startup #ProductLaunch",
+  "source": "social_media: @techstartup | Oct 20, 2024",
+  "keywords": [
+    "AI",
+    "analytics",
+    "startup",
+    "product launch"
+  ],
+  "tags": [
+    "tech",
+    "startup",
+    "AI",
+    "product launch"
+  ],
+  "entities": {
+    "orgs": [
+      "TechStartup"
+    ]
+  },
+  "sentiment": "positive",
+  "relationships": [
+    {
+      "type": "references",
+      "target": "https://beta.techstartup.io"
+    }
+  ],
+  "temporal_context": {
+    "recurrence": "one-time",
+    "time_horizon": "future",
+    "urgency": "medium"
+  },
+  "calendar_event": {
+    "uid": "T20241020",
+    "organizer": "@techstartup",
+    "description": "AI-powered analytics platform launch announcement"
+  },
+  "file_path": "/home/vaden/dev/projects/structify/test_data/05_social_media.md"
+}

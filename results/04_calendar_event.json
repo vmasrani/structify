@@ -1,0 +1,93 @@
+{
+  "summary": "Product Launch Presentation scheduled for November 5, 2024, from 3:00 PM to 4:30 PM PST via Zoom (Meeting ID: 123-456-789). The event includes demos, Q&A, and go-to-market strategy discussion organized by Jennifer Martinez.",
+  "questions": [
+    "What is the date and time of the product launch presentation?",
+    "How do I join the Zoom meeting for the event?",
+    "Who are the attendees of the Product Launch Presentation?",
+    "What is the agenda for the event?",
+    "What preparation is required for the presentation?"
+  ],
+  "concepts": [
+    "product launch",
+    "SaaS platform",
+    "go-to-market strategy",
+    "team collaboration"
+  ],
+  "key_phrases": [
+    "Product Launch Presentation",
+    "SaaS platform",
+    "go-to-market strategy",
+    "Zoom (Meeting ID: 123-456-789)",
+    "C-Suite Executives"
+  ],
+  "title": "Product Launch Presentation",
+  "text": "Final presentation of our new SaaS platform before public launch. Demos, Q&A, and go-to-market strategy discussion.",
+  "source": "calendar_event",
+  "keywords": [
+    "product launch",
+    "SaaS",
+    "go-to-market",
+    "Zoom",
+    "presentation"
+  ],
+  "tags": [
+    "event",
+    "product launch",
+    "strategy"
+  ],
+  "entities": {
+    "persons": [
+      "Jennifer Martinez"
+    ],
+    "orgs": [
+      "startup.io"
+    ],
+    "places": [
+      "Zoom"
+    ],
+    "emails": [
+      "jennifer.martinez@startup.io"
+    ]
+  },
+  "claims": [
+    "Event is scheduled for November 5, 2024",
+    "Meeting ID is 123-456-789",
+    "Jennifer Martinez is the organizer",
+    "Attendees include Product Team, Marketing Team, and C-Suite Executives",
+    "Event includes demos, Q&A, and go-to-market strategy discussion"
+  ],
+  "time": {
+    "start_at": "2024-11-05T15:00:00-08:00",
+    "end_at": "2024-11-05T16:30:00-08:00",
+    "timezone": "America/Los_Angeles"
+  },
+  "location": {
+    "name": "Zoom",
+    "address": "Meeting ID: 123-456-789"
+  },
+  "calendar_event": {
+    "uid": "ProductLaunch2024",
+    "organizer": "Jennifer Martinez",
+    "attendees": [
+      {
+        "name": "Product Team",
+        "response": "needs_action",
+        "role": "internal"
+      },
+      {
+        "name": "Marketing Team",
+        "response": "needs_action",
+        "role": "internal"
+      },
+      {
+        "name": "C-Suite Executives",
+        "response": "needs_action",
+        "role": "internal"
+      }
+    ],
+    "description": "Final presentation of our new SaaS platform before public launch. Demos, Q&A, and go-to-market strategy discussion.",
+    "sequence": 1,
+    "status": "confirmed"
+  },
+  "file_path": "/home/vaden/dev/projects/structify/test_data/04_calendar_event.md"
+}

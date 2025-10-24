@@ -1,0 +1,74 @@
+{
+  "summary": "MegaTech Corp announced a $500 million AI research facility in Seattle, creating 1,200 jobs over three years with focus on natural language processing and computer vision.",
+  "questions": [
+    "What is the purpose of MegaTech Corp's new AI lab?",
+    "Who leads the AI research division at the new facility?",
+    "How many jobs will the Seattle AI lab create?",
+    "What technologies will the facility focus on?",
+    "What was the CEO's statement about the investment?"
+  ],
+  "concepts": [
+    "artificial intelligence research",
+    "job creation",
+    "tech industry development",
+    "economic impact"
+  ],
+  "key_phrases": [
+    "AI research lab",
+    "natural language processing",
+    "computer vision applications",
+    "MegaTech Corp",
+    "Dr. Andrew Chen",
+    "CEO Maria Gonzalez",
+    "Seattle"
+  ],
+  "title": "Tech Giant Announces New AI Research Lab in Seattle",
+  "text": "MegaTech Corp announced today the opening of a new $500 million AI research facility in downtown Seattle, creating an estimated 1,200 jobs over the next three years. The 200,000 square-foot facility will focus on natural language processing and computer vision applications. Dr. Andrew Chen, formerly of MIT, will lead the research division. CEO Maria Gonzalez emphasized the commitment to responsible AI advancement. Local officials highlighted the economic impact on Seattle's tech ecosystem.",
+  "source": "news_article",
+  "keywords": [
+    "AI",
+    "Seattle",
+    "Tech Industry",
+    "Job Creation",
+    "Research Lab"
+  ],
+  "tags": [
+    "Artificial Intelligence",
+    "Seattle",
+    "Tech Industry",
+    "Job Creation"
+  ],
+  "entities": {
+    "persons": [
+      "Dr. Andrew Chen",
+      "Maria Gonzalez"
+    ],
+    "orgs": [
+      "MegaTech Corp"
+    ],
+    "places": [
+      "Seattle, WA"
+    ],
+    "emails": [],
+    "phones": [],
+    "ids": []
+  },
+  "sentiment": "positive",
+  "relationships": [
+    {
+      "type": "references",
+      "target": "Related Topics: #Artificial Intelligence #Seattle #Tech Industry #Job Creation"
+    }
+  ],
+  "temporal_context": {
+    "time_horizon": "future"
+  },
+  "claims": [
+    "Investment is $500 million",
+    "Facility size is 200,000 sq ft",
+    "Job creation target is 1,200 over three years",
+    "Dr. Andrew Chen leads research",
+    "CEO Maria Gonzalez made the announcement"
+  ],
+  "file_path": "/home/vaden/dev/projects/structify/test_data/07_news_article.md"
+}

@@ -1,0 +1,96 @@
+{
+  "summary": "Weekly standup meeting summary covering progress updates, action items, and next meeting date.",
+  "questions": [
+    "What were the key action items from the meeting?",
+    "Who is responsible for the API keys issue?",
+    "What is the status of the frontend redesign?",
+    "When is the next standup meeting?",
+    "What are the current blockers for team members?"
+  ],
+  "concepts": [
+    "project management",
+    "team collaboration",
+    "software development"
+  ],
+  "key_phrases": [
+    "user authentication feature",
+    "database optimization",
+    "API keys from vendor",
+    "frontend redesign",
+    "weekly standup"
+  ],
+  "title": "Weekly Standup Notes - October 18, 2024",
+  "text": "# Weekly Standup Notes\\n\\n**Date:** October 18, 2024\\n**Time:** 10:00 AM - 10:30 AM\\n**Attendees:** Mike Chen, Lisa Park, David Kumar, Emma White\\n\\n## Discussion Points\\n- Mike completed the user authentication feature\\n- Lisa is working on database optimization (ETA: Friday)\\n- David blocked on API keys from vendor\\n- Emma started work on frontend redesign\\n\\n## Action Items\\n- [ ] Mike: Review Lisa's PR by EOD\\n- [ ] David: Follow up with vendor (Stripe) about API access\\n- [ ] Emma: Share mockups in Slack by Wednesday\\n\\n## Next Meeting\\nOctober 25, 2024 @ 10:00 AM",
+  "source": "meeting_notes",
+  "tags": [
+    "project management",
+    "team meeting",
+    "software development"
+  ],
+  "entities": {
+    "persons": [
+      "Mike Chen",
+      "Lisa Park",
+      "David Kumar",
+      "Emma White"
+    ],
+    "orgs": [
+      "Stripe"
+    ],
+    "emails": [],
+    "phones": [],
+    "ids": []
+  },
+  "relationships": [
+    {
+      "type": "blocked_by",
+      "target": "Stripe",
+      "context": "API keys issue"
+    },
+    {
+      "type": "action_item_owner",
+      "target": "Mike Chen",
+      "context": "Review Lisa's PR by EOD"
+    },
+    {
+      "type": "action_item_owner",
+      "target": "David Kumar",
+      "context": "Follow up with vendor (Stripe) about API access"
+    },
+    {
+      "type": "action_item_owner",
+      "target": "Emma White",
+      "context": "Share mockups in Slack by Wednesday"
+    }
+  ],
+  "temporal_context": {
+    "recurrence": "weekly",
+    "time_horizon": "past",
+    "urgency": "medium"
+  },
+  "claims": [
+    "Mike completed the user authentication feature",
+    "Lisa is working on database optimization (ETA: Friday)",
+    "David is blocked on API keys from vendor",
+    "Emma started work on frontend redesign"
+  ],
+  "document": {
+    "doc_type": "meeting notes",
+    "sections": [
+      {
+        "title": "Discussion Points",
+        "text": "- Mike completed the user authentication feature\\n- Lisa is working on database optimization (ETA: Friday)\\n- David blocked on API keys from vendor\\n- Emma started work on frontend redesign"
+      },
+      {
+        "title": "Action Items",
+        "text": "- [ ] Mike: Review Lisa's PR by EOD\\n- [ ] David: Follow up with vendor (Stripe) about API access\\n- [ ] Emma: Share mockups in Slack by Wednesday"
+      }
+    ],
+    "action_items": [
+      "Mike: Review Lisa's PR by EOD",
+      "David: Follow up with vendor (Stripe) about API access",
+      "Emma: Share mockups in Slack by Wednesday"
+    ]
+  },
+  "file_path": "/home/vaden/dev/projects/structify/test_data/02_meeting_notes.md"
+}

@@ -1,0 +1,70 @@
+{
+  "summary": "A study by Dr. Patricia Wong at Stanford University (October 2024) found that 68% of remote software developers reported same or higher productivity, with 15% increased coding output and 22% reduced meeting time. Challenges include communication delays and onboarding difficulties.",
+  "questions": [
+    "How does remote work affect developer productivity?",
+    "What are the challenges of remote work for software teams?",
+    "What communication strategies improve remote productivity?",
+    "How do remote developers manage context switching?",
+    "What tools are recommended for remote collaboration?"
+  ],
+  "concepts": [
+    "remote work productivity",
+    "software development practices",
+    "team collaboration",
+    "workplace communication"
+  ],
+  "key_phrases": [
+    "async-first communication protocols",
+    "no-meeting blocks",
+    "remote work productivity",
+    "coding output metrics",
+    "team onboarding challenges"
+  ],
+  "title": "Impact of Remote Work on Software Developer Productivity",
+  "text": "# Research Notes\n\n**Study:** Impact of Remote Work on Software Developer Productivity\n**Researcher:** Dr. Patricia Wong\n**Date:** October 2024\n**Institution:** Stanford University\n\n## Key Findings\n\nConducted survey of 500 software developers across 50 companies (June-September 2024).\n\n### Productivity Metrics\n\n- 68% reported same or higher productivity when remote\n- Average coding output: +15% compared to office baseline\n- Meeting time reduced by 22% on average\n- Context switching decreased significantly\n\n### Challenges Identified\n\n- Communication delays (mentioned by 45% of respondents)\n- Difficulty onboarding new team members (38%)\n- Reduced spontaneous collaboration (52%)\n\n### Recommendations\n\n1. Implement async-first communication protocols\n2. Schedule focused \"no-meeting\" blocks\n3. Invest in better collaboration tools\n4. Maintain regular team social events\n\n**Next Steps:** Follow-up study in 6 months to track long-term trends.\n\n**References:** See bibliography (23 sources)",
+  "source": "research_notes",
+  "keywords": [
+    "remote work",
+    "productivity",
+    "software developers",
+    "team collaboration"
+  ],
+  "tags": [
+    "remote work",
+    "productivity study",
+    "software development"
+  ],
+  "entities": {
+    "persons": [
+      "Dr. Patricia Wong"
+    ],
+    "orgs": [
+      "Stanford University"
+    ]
+  },
+  "relationships": [
+    {
+      "type": "references",
+      "target": "bibliography (23 sources)"
+    }
+  ],
+  "temporal_context": {
+    "recurrence": "one-time",
+    "time_horizon": "past",
+    "urgency": "low"
+  },
+  "claims": [
+    "68% of developers reported same or higher productivity when remote",
+    "Average coding output increased by 15% compared to office baseline",
+    "Meeting time reduced by 22% on average",
+    "45% of respondents mentioned communication delays",
+    "38% faced difficulty onboarding new team members"
+  ],
+  "time": {
+    "start_at": "2024-06",
+    "end_at": "2024-09",
+    "timezone": "UTC"
+  },
+  "status": "completed",
+  "file_path": "/home/vaden/dev/projects/structify/test_data/10_research_notes.md"
+}

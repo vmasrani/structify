@@ -1,0 +1,91 @@
+{
+  "summary": "Marcus Johnson praises the UltraFit Pro Wireless Headphones for their excellent sound quality and long battery life, though notes they are pricey and have limited Bluetooth range.",
+  "questions": [
+    "What are the pros and cons of the UltraFit Pro Wireless Headphones?",
+    "How long does the battery last on a single charge?",
+    "Is the UltraFit Pro Wireless Headphones worth the price?",
+    "What is the Bluetooth range like?",
+    "What does the USB-C charging feature offer?"
+  ],
+  "concepts": [
+    "wireless headphones",
+    "audio quality",
+    "battery life",
+    "product pricing",
+    "noise cancellation"
+  ],
+  "key_phrases": [
+    "UltraFit Pro Wireless Headphones",
+    "Crystal clear audio",
+    "active noise cancellation",
+    "USB-C charging",
+    "Bluetooth range"
+  ],
+  "title": "Product Review: UltraFit Pro Wireless Headphones",
+  "text": "I've been using these headphones for 3 weeks and I'm really impressed. The sound quality is excellent, especially for electronic music. Battery life is solid - easily 20+ hours on a single charge.\n\nPros:\n- Crystal clear audio\n- Comfortable for long sessions\n- Great active noise cancellation\n- USB-C charging\n\nCons:\n- A bit pricey at $299\n- Bluetooth range could be better\n\nWould I recommend? Absolutely, if you're an audiophile willing to invest in quality.\n\nPurchased from: Amazon",
+  "source": "product_review",
+  "keywords": [
+    "wireless headphones",
+    "sound quality",
+    "battery life",
+    "noise cancellation",
+    "price"
+  ],
+  "tags": [
+    "product review",
+    "electronics",
+    "audio equipment"
+  ],
+  "entities": {
+    "persons": [
+      "Marcus Johnson"
+    ],
+    "orgs": [
+      "Amazon"
+    ],
+    "emails": [],
+    "phones": [],
+    "ids": []
+  },
+  "sentiment": "positive",
+  "relationships": [
+    {
+      "type": "purchased_from",
+      "target": "Amazon",
+      "context": "purchase source"
+    }
+  ],
+  "claims": [
+    "Battery life is solid - easily 20+ hours on a single charge",
+    "Price is $299",
+    "Bluetooth range could be better"
+  ],
+  "time": {
+    "start_at": "2024-10-15",
+    "timezone": "UTC"
+  },
+  "status": "active",
+  "dedupe_key": "UltraFit_Pro_Review_Marcus_Johnson_20241015",
+  "document": {
+    "doc_type": "product review",
+    "sections": [
+      {
+        "title": "Pros",
+        "text": "- Crystal clear audio\n- Comfortable for long sessions\n- Great active noise cancellation\n- USB-C charging"
+      },
+      {
+        "title": "Cons",
+        "text": "- A bit pricey at $299\n- Bluetooth range could be better"
+      }
+    ],
+    "key_points": [
+      "Excellent sound quality for electronic music",
+      "20+ hour battery life",
+      "Active noise cancellation",
+      "USB-C charging",
+      "Price point of $299",
+      "Limited Bluetooth range"
+    ]
+  },
+  "file_path": "/home/vaden/dev/projects/structify/test_data/06_product_review.md"
+}

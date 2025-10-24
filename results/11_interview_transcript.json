@@ -1,0 +1,46 @@
+{
+  "summary": "This interview transcript discusses Priya Sharma's experience in microservices, distributed transactions, and system design for high-scale applications. Interviewers are Tom Wilson (Engineering Manager) and Sarah Lee (Tech Lead). The candidate asks about the deployment pipeline and team culture.",
+  "questions": [
+    "What challenges did Priya face during the migration to a microservices architecture?",
+    "How does Priya approach system design for high-scale applications?",
+    "What questions did Priya ask the interviewers?"
+  ],
+  "concepts": [
+    "microservices",
+    "distributed transactions",
+    "system design"
+  ],
+  "key_phrases": [
+    "migration from monolith to microservices",
+    "Saga pattern",
+    "event sourcing",
+    "high-scale application design"
+  ],
+  "title": "Interview Transcript - Senior Backend Engineer Position",
+  "text": "# Interview Transcript\n\n**Position:** Senior Backend Engineer\n**Candidate:** Priya Sharma\n**Interviewers:** Tom Wilson (Engineering Manager), Sarah Lee (Tech Lead)\n**Date:** October 19, 2024\n**Duration:** 45 minutes\n\n---\n\n**Tom:** Thanks for joining us today, Priya. Can you tell us about your experience with microservices?\n\n**Priya:** Absolutely. At my current role at DataTech, I led the migration from a monolith to microservices architecture. We split the system into 12 services using Docker and Kubernetes.\n\n**Sarah:** What were the biggest challenges in that migration?\n\n**Priya:** Definitely handling distributed transactions and maintaining data consistency. We implemented the Saga pattern and used event sourcing for critical workflows.\n\n**Tom:** Impressive. How do you approach system design for high-scale applications?\n\n**Priya:** I always start with understanding the requirements and traffic patterns. Then focus on caching strategies, database sharding, and async processing where appropriate.\n\n**Sarah:** Do you have any questions for us?\n\n**Priya:** Yes, I'd love to know more about your deployment pipeline and what your team culture is like.\n\n---\n\n**Interviewer Notes:**\n- Strong technical background\n- Good communication skills\n- Relevant experience with our tech stack\n- **Recommendation:** Move to final round",
+  "source": "interview_transcript",
+  "keywords": [
+    "microservices",
+    "distributed transactions",
+    "system design",
+    "high-scale application"
+  ],
+  "tags": [
+    "technical interview",
+    "engineering management"
+  ],
+  "entities": {
+    "persons": [
+      "Priya Sharma",
+      "Tom Wilson",
+      "Sarah Lee"
+    ],
+    "orgs": [
+      "DataTech"
+    ],
+    "emails": [],
+    "phones": []
+  },
+  "status": "completed",
+  "file_path": "/home/vaden/dev/projects/structify/test_data/11_interview_transcript.md"
+}

@@ -1,0 +1,85 @@
+{
+  "summary": "Sarah Johnson scheduled a Q4 sprint planning meeting for Thursday at 2pm to discuss the new authentication module and API refactor, requesting team review of the architecture doc.",
+  "questions": [
+    "When is the Q4 sprint planning meeting?",
+    "What will be discussed in the sprint planning session?",
+    "What is the new authentication module?",
+    "Where can I find the architecture doc for review?"
+  ],
+  "concepts": [
+    "software development",
+    "agile methodology",
+    "team collaboration"
+  ],
+  "key_phrases": [
+    "Q4 sprint planning",
+    "authentication module",
+    "API refactor",
+    "architecture doc"
+  ],
+  "title": "Sprint Planning for Q4",
+  "text": "Let's sync up on Thursday at 2pm for Q4 sprint planning. We need to discuss the new authentication module and the API refactor. Please review the architecture doc before the meeting: https://docs.techcorp.com/q4-plan",
+  "source": "email: sarah.johnson@techcorp.com to dev-team@techcorp.com (2024-10-20 09:30:00)",
+  "keywords": [
+    "sprint planning",
+    "authentication",
+    "API",
+    "architecture"
+  ],
+  "tags": [
+    "project management",
+    "software development"
+  ],
+  "entities": {
+    "persons": [
+      "Sarah Johnson"
+    ],
+    "orgs": [
+      "TechCorp"
+    ],
+    "emails": [
+      "sarah.johnson@techcorp.com",
+      "dev-team@techcorp.com"
+    ],
+    "ids": []
+  },
+  "relationships": [
+    {
+      "type": "references",
+      "target": "https://docs.techcorp.com/q4-plan"
+    }
+  ],
+  "temporal_context": {
+    "recurrence": "none",
+    "time_horizon": "future",
+    "urgency": "medium"
+  },
+  "claims": [
+    "Sprint planning meeting scheduled for Thursday",
+    "Discussion topics: authentication module, API refactor",
+    "Architecture doc required for review"
+  ],
+  "time": {
+    "start_at": "2024-10-24T14:00:00",
+    "timezone": "UTC"
+  },
+  "links": [
+    "https://docs.techcorp.com/q4-plan"
+  ],
+  "status": "pending",
+  "message_thread": {
+    "platform": "email",
+    "messages": [
+      {
+        "speaker": "sarah.johnson@techcorp.com",
+        "sent_at": "2024-10-20T09:30:00",
+        "text": "Hey team, Let's sync up on Thursday at 2pm for Q4 sprint planning. We need to discuss the new authentication module and the API refactor. Please review the architecture doc before the meeting: https://docs.techcorp.com/q4-plan. Thanks, Sarah"
+      }
+    ]
+  },
+  "calendar_event": {
+    "organizer": "sarah.johnson@techcorp.com",
+    "description": "Q4 sprint planning meeting"
+  },
+  "file_path": "/home/vaden/dev/projects/structify/test_data/01_email.md"
+}

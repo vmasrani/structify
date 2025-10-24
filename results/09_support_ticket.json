@@ -1,0 +1,105 @@
+{
+  "summary": "Support ticket regarding admin dashboard login failure with 'Invalid credentials' error despite correct password, impacting 5 team members.",
+  "questions": [
+    "What causes the 'Invalid credentials' error for admin login?",
+    "How to resolve password reset email issues?",
+    "What steps reproduce the admin dashboard login failure?",
+    "How to fix login issues for premium business accounts?"
+  ],
+  "concepts": [
+    "authentication",
+    "login issues",
+    "urgent support"
+  ],
+  "key_phrases": [
+    "Invalid credentials error",
+    "password reset email",
+    "admin dashboard access",
+    "premium business plan"
+  ],
+  "title": "Admin Login Failure - Invalid Credentials Error",
+  "text": "# Support Ticket\\n\\n**Ticket ID:** SUPP-19283\\n**Status:** Open\\n**Priority:** High\\n**Created:** 2024-10-20 08:15:32 UTC\\n\\n**Reporter:** Kevin O'Brien (kevin.obrien@company.com)\\n**Assigned To:** Support Team\\n\\n## Issue Description\\nUnable to log into the admin dashboard since this morning. Getting \"Invalid credentials\" error even though password is correct. Tried password reset but not receiving the email.\\n\\n## Steps to Reproduce\\n1. Navigate to admin.company.com/login\\n2. Enter valid username and password\\n3. Click \"Sign In\"\\n4. Error appears immediately\\n\\n## Environment\\n- Browser: Chrome 118.0.5993.88\\n- OS: Windows 11\\n- Account: Premium Business Plan\\n\\n## Impact\\nBlocking 5 team members from accessing critical reports. Need urgent resolution.\\n\\n**Tags:** #authentication #login #urgent",
+  "source": "support_ticket",
+  "keywords": [
+    "authentication",
+    "login error",
+    "password reset",
+    "admin access"
+  ],
+  "tags": [
+    "authentication",
+    "login",
+    "urgent"
+  ],
+  "entities": {
+    "persons": [
+      "Kevin O'Brien"
+    ],
+    "orgs": [
+      "company"
+    ],
+    "emails": [
+      "kevin.obrien@company.com"
+    ],
+    "ids": [
+      "SUPP-19283"
+    ]
+  },
+  "sentiment": "urgent",
+  "relationships": [
+    {
+      "type": "references",
+      "target": "SUPP-19283"
+    }
+  ],
+  "temporal_context": {
+    "time_horizon": "present",
+    "urgency": "high"
+  },
+  "claims": [
+    "Ticket ID is SUPP-19283",
+    "Status is Open",
+    "Priority is High",
+    "Created at 2024-10-20 08:15:32 UTC",
+    "Reporter is Kevin O'Brien",
+    "Assigned To Support Team",
+    "Error message is 'Invalid credentials'",
+    "Account type is Premium Business Plan",
+    "Impact affects 5 team members"
+  ],
+  "document": {
+    "doc_type": "support ticket",
+    "sections": [
+      {
+        "title": "Issue Description",
+        "text": "Unable to log into the admin dashboard since this morning. Getting \"Invalid credentials\" error even though password is correct. Tried password reset but not receiving the email."
+      },
+      {
+        "title": "Steps to Reproduce",
+        "text": "1. Navigate to admin.company.com/login\\n2. Enter valid username and password\\n3. Click \"Sign In\"\\n4. Error appears immediately"
+      },
+      {
+        "title": "Environment",
+        "text": "- Browser: Chrome 118.0.5993.88\\n- OS: Windows 11\\n- Account: Premium Business Plan"
+      },
+      {
+        "title": "Impact",
+        "text": "Blocking 5 team members from accessing critical reports. Need urgent resolution."
+      }
+    ],
+    "key_points": [
+      "Persistent 'Invalid credentials' error despite correct password",
+      "Password reset email not received",
+      "Affects 5 team members with premium accounts",
+      "Urgent resolution required"
+    ],
+    "references": [
+      "SUPP-19283"
+    ],
+    "signatories": [
+      "Kevin O'Brien",
+      "Support Team"
+    ]
+  },
+  "file_path": "/home/vaden/dev/projects/structify/test_data/09_support_ticket.md"
+}

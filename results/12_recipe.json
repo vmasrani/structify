@@ -1,0 +1,45 @@
+{
+  "summary": "This recipe provides detailed instructions for making Classic Italian Carbonara, including ingredients, cooking steps, and tips.",
+  "questions": [
+    "What are the main ingredients in this dish?",
+    "How long does it take to prepare and cook?",
+    "What is the best wine pairing for this recipe?"
+  ],
+  "concepts": [
+    "Italian cuisine",
+    "pasta dishes",
+    "traditional recipes"
+  ],
+  "key_phrases": [
+    "Classic Italian Carbonara",
+    "guanciale",
+    "Pecorino Romano cheese",
+    "al dente spaghetti"
+  ],
+  "text": "# Recipe\n\n## Classic Italian Carbonara\n\n**Author:** Chef Marco Rossi\n**Prep Time:** 10 minutes\n**Cook Time:** 20 minutes\n**Servings:** 4 people\n**Difficulty:** Medium\n\n### Ingredients\n- 400g spaghetti\n- 200g guanciale (or pancetta), diced\n- 4 large egg yolks\n- 100g Pecorino Romano cheese, grated\n- Black pepper, freshly ground\n- Salt for pasta water\n\n### Instructions\n1. Bring large pot of salted water to boil. Cook spaghetti until al dente (about 9-10 minutes).\n2. While pasta cooks, fry guanciale in a large pan over medium heat until crispy (8-10 minutes). No oil needed - it releases its own fat.\n3. In a bowl, whisk together egg yolks, grated cheese, and generous black pepper.\n4. Reserve 1 cup pasta water. Drain pasta and add to pan with guanciale.\n5. Remove pan from heat. Quickly mix in egg mixture, adding pasta water gradually until creamy.\n6. Serve immediately with extra cheese and pepper.\n\n**Chef's Tip:** The key is temperature control - too hot and eggs scramble, too cold and sauce won't emulsify properly.\n\n**Wine Pairing:** A crisp Italian white like Frascati or Verdicchio",
+  "source": "recipe",
+  "keywords": [
+    "Classic Italian Carbonara",
+    "guanciale",
+    "Pecorino Romano cheese",
+    "al dente spaghetti"
+  ],
+  "tags": [
+    "cooking",
+    "Italian recipes"
+  ],
+  "entities": {
+    "persons": [
+      "Chef Marco Rossi"
+    ],
+    "orgs": [],
+    "places": []
+  },
+  "claims": [
+    "The key is temperature control - too hot and eggs scramble, too cold and sauce won't emulsify properly.",
+    "Cooking time: 20 minutes",
+    "Prep time: 10 minutes",
+    "Servings: 4 people"
+  ],
+  "file_path": "/home/vaden/dev/projects/structify/test_data/12_recipe.md"
+}

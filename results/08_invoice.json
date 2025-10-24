@@ -1,0 +1,66 @@
+{
+  "summary": "CloudServices Inc. issued an invoice to Acme Corporation for cloud hosting, database backup, SSL certificates, and technical support services rendered in October 2024, with a total due amount of $1,679.58 by October 31, 2024.",
+  "questions": [
+    "What is the total amount due for the invoice?",
+    "What services are included in the invoice?",
+    "What is the due date for payment?",
+    "What are the payment instructions?",
+    "What is the invoice number?"
+  ],
+  "concepts": [
+    "financial transactions",
+    "cloud services",
+    "account management",
+    "invoice processing"
+  ],
+  "key_phrases": [
+    "Premium Cloud Hosting",
+    "Database Backup Service",
+    "SSL Certificates",
+    "Technical Support",
+    "Wire Transfer Payment",
+    "Invoice Number",
+    "Due Date",
+    "Subtotal",
+    "Tax",
+    "Total Due"
+  ],
+  "title": "Invoice #INV-2024-0847",
+  "text": "Invoice details including services provided, pricing, and payment terms.",
+  "source": "invoice",
+  "keywords": [
+    "invoice",
+    "cloud hosting",
+    "database backup",
+    "SSL certificate",
+    "technical support",
+    "wire transfer"
+  ],
+  "tags": [
+    "finance",
+    "accounting",
+    "invoices",
+    "cloud services"
+  ],
+  "entities": {
+    "orgs": [
+      "CloudServices Inc.",
+      "Acme Corporation"
+    ],
+    "emails": [
+      "support@cloudservices.com"
+    ],
+    "phones": [],
+    "ids": [
+      "INV-2024-0847",
+      "9876543210"
+    ]
+  },
+  "claims": [
+    "Invoice number is INV-2024-0847",
+    "Total due amount is $1,679.58",
+    "Due date is October 31, 2024",
+    "Payment method is wire transfer to account #9876543210"
+  ],
+  "file_path": "/home/vaden/dev/projects/structify/test_data/08_invoice.md"
+}

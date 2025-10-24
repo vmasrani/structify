@@ -1,0 +1,26 @@
+CWD=$(pwd)
+LOCAL_EVENTS_PATH=./local_data/all_events.json
+LOCAL_EMAIL_CACHE_PATH=./local_data/emails
+LOCAL_EMAIL_MD_CACHE_PATH=./local_data/emails_md
+GOOGLE_AUTH_TOKEN=./local_data/izzi_auth/token.pickle
+FILE_UPLOAD_FOLDER=./local_data/uploaded_files
+
+OLLAMA_HOST=http://192.168.10.207:11434/v1
+OLLAMA_API_BASE=http://192.168.10.207:11434/v1
+
+OLLAMA_MACMINI_HOST=http://192.168.10.129:11434
+OPENAI_API_BASE=http://192.168.10.207:11434/v1
+RERANKER_API_HOST=http://192.168.10.207:8000/rerank
+
+MEM0_QDRANT_COLLECTION_NAME=mem0_test2_openai
+MEM0_USER_ID="Moq Q."
+ADK_APP_NAME="core_ai"
+POSTGRES_DB_URL=postgresql+psycopg://vaden:vaden@localhost:5432/ai_core
+
+OLLAMA_CONTEXT_LENGTH=120000
+
+
+HA_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJkNzljNjhmMmYwYWM0Y2Q1YTg0Y2NiMDZlMDExMjc2NiIsImlhdCI6MTc1MTQ3OTkzNiwiZXhwIjoyMDY2ODM5OTM2fQ.l1TUsWmsYWeT7b2nJyDxjyOFTHvcseeYQ7cBPDgqb3M
+HA_URL=http://192.168.10.165:8123
+# WhatsApp Service Configuration
+WHATSAPP_SERVICE_PORT=8011

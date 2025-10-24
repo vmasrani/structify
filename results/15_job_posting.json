@@ -1,0 +1,47 @@
+{
+  "summary": "This job posting is for a Senior Data Scientist position at InnovateTech Solutions in Austin, TX. The role involves designing and implementing ML models for fraud detection, working with large datasets, collaborating on production deployments, mentoring junior data scientists, and presenting findings to executives.",
+  "questions": [
+    "What are the responsibilities of a Senior Data Scientist at InnovateTech?",
+    "What experience is required for this position?",
+    "What benefits come with the job offer?"
+  ],
+  "concepts": [
+    "data science",
+    "machine learning",
+    "fraud detection"
+  ],
+  "key_phrases": [
+    "Senior Data Scientist",
+    "real-time fraud detection",
+    "ML models"
+  ],
+  "title": "Job Posting - Senior Data Scientist at InnovateTech Solutions",
+  "text": "# Job Posting\n\n## Senior Data Scientist - Machine Learning\n\n**Company:** InnovateTech Solutions\n**Location:** Austin, TX (Hybrid - 3 days/week in office)\n**Job Type:** Full-time\n**Salary Range:** $140,000 - $180,000 + equity\n**Posted:** October 15, 2024\n\n### About Us\n\nInnovateTech is a fast-growing FinTech startup using ML to revolutionize fraud detection. We've raised $25M Series B and are scaling our data science team.\n\n### What You'll Do\n\n- Design and implement ML models for real-time fraud detection\n- Work with massive datasets (10B+ transactions/month)\n- Collaborate with engineering to deploy models to production\n- Mentor junior data scientists\n- Present findings to executive team\n\n### Requirements\n\n- PhD or Master's in Computer Science, Statistics, or related field\n- 5+ years experience in data science/ML engineering\n- Strong Python skills (PyTorch/TensorFlow)\n- Experience with distributed computing (Spark/Dask)\n- Track record of deploying production ML systems\n\n### Nice to Have\n\n- Experience in FinTech or fraud detection\n- Knowledge of real-time streaming systems (Kafka, Flink)\n- Published research in ML conferences\n\n### Benefits\n\n- Competitive salary + significant equity\n- Health, dental, vision insurance (100% covered)\n- Unlimited PTO\n- $5k annual learning budget\n- Latest M3 MacBook Pro\n- Monthly team events\n\n**To Apply:** Send resume to careers@innovatetech.io with subject \"Senior DS - [Your Name]\"\n\nApplication deadline: November 15, 2024",
+  "source": "job_posting",
+  "keywords": [
+    "data scientist",
+    "fraud detection",
+    "machine learning"
+  ],
+  "tags": [
+    "technology",
+    "finance",
+    "data science"
+  ],
+  "entities": {
+    "persons": [],
+    "orgs": [
+      "InnovateTech Solutions"
+    ],
+    "places": [
+      "Austin, TX"
+    ],
+    "emails": [
+      "careers@innovatetech.io"
+    ],
+    "phones": [],
+    "ids": []
+  },
+  "sentiment": "neutral",
+  "file_path": "/home/vaden/dev/projects/structify/test_data/15_job_posting.md"
+}

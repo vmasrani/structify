@@ -1,0 +1,56 @@
+{
+  "summary": "This bug report describes a critical issue with the image processing module where memory usage grows continuously, leading to system crashes after processing large batches of images. The problem is suspected to be due to improper release of image buffers in the `ImageProcessor.processAsync()` method.",
+  "questions": [
+    "What are the steps to reproduce the memory leak?",
+    "How does the application's memory usage change over time?",
+    "What version and OS is the affected software running on?",
+    "Is there a specific cause identified for the memory leak?"
+  ],
+  "concepts": [
+    "memory management",
+    "image processing",
+    "bug reporting"
+  ],
+  "key_phrases": [
+    "memory leak in image processing module",
+    "OutOfMemoryError",
+    "ImageProcessor.processAsync()"
+  ],
+  "title": "Bug Report: Memory Leak in Image Processing Module",
+  "text": "# Bug Report\n\n**Bug ID:** BUG-5421\n**Title:** Memory leak in image processing module\n**Severity:** Critical\n**Status:** Confirmed\n**Reported By:** Alice Zhang (QA Team)\n**Date:** 2024-10-18\n\n## Description\nApplication memory usage grows continuously when processing large batches of images, eventually causing system slowdown and crashes after ~500 images.\n\n## Steps to Reproduce\n1. Start application with 2GB heap\n2. Use batch processor to upload 1000+ images\n3. Monitor memory usage via profiler\n4. Observe steady growth without garbage collection\n\n## Expected Behavior\nMemory should stabilize after initial allocation and recycle properly between batches.\n\n## Actual Behavior\nMemory grows from 500MB to 1.8GB+ over 30 minutes, then OutOfMemoryError occurs.\n\n## Environment\n- Version: 2.3.4\n- OS: Ubuntu 22.04\n- JVM: OpenJDK 17\n- Hardware: 16GB RAM, 8 cores\n\n## Suspected Cause\nImage buffers not being properly released in `ImageProcessor.processAsync()` method. Profiler shows BufferedImage objects accumulating in heap.\n\n## Attached Files\n- memory-profile.hprof\n- application.log\n- Screenshots of heap dump analysis\n\n**Priority:** P0 - Blocks production deployment",
+  "source": "bug_report",
+  "keywords": [
+    "memory leak",
+    "image processing module",
+    "OutOfMemoryError"
+  ],
+  "tags": [
+    "bug report",
+    "critical issue"
+  ],
+  "entities": {
+    "persons": [
+      "Alice Zhang"
+    ],
+    "orgs": [],
+    "places": []
+  },
+  "relationships": [
+    {
+      "type": "reported_by",
+      "target": "Alice Zhang (QA Team)",
+      "context": "Reported the bug"
+    }
+  ],
+  "temporal_context": {
+    "time_horizon": "ongoing",
+    "urgency": "high"
+  },
+  "claims": [
+    "Memory usage grows continuously when processing large batches of images.",
+    "The application crashes after ~500 images due to memory issues.",
+    "The suspected cause is improper release of image buffers in `ImageProcessor.processAsync()` method."
+  ],
+  "status": "confirmed",
+  "file_path": "/home/vaden/dev/projects/structify/test_data/13_bug_report.md"
+}
