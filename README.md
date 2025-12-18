@@ -7,7 +7,7 @@ Tools for turning unstructured text into structured records using OpenAI-compati
 Add the repository directly as a dependency in another project:
 
 ```bash
-uv add "structify @ git+https://github.com/<your-org>/structify"
+uv add "structify @ git+https://github.com/vmasrani/structify"
 ```
 
 Replace `<your-org>` with the GitHub namespace that hosts this repo. `uv` will build the package using the bundled `pyproject.toml`, so no extra packaging steps are required.
